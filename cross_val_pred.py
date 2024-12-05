@@ -26,7 +26,6 @@ from torch.amp import autocast, GradScaler
 from sklearn.metrics import roc_auc_score, explained_variance_score, r2_score
 import pdb
 from torch.optim.lr_scheduler import StepLR  # Import StepLR scheduler
-from captum.attr import IntegratedGradients
 from scipy.stats import pearsonr
 
 
